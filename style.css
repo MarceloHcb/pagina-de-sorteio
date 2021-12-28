@@ -1,0 +1,74 @@
+html{
+    display: flex;
+    background-color: paleturquoise;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+h1{
+    color:snow;
+    align-self: center;
+    text-shadow:2px 1px black;   
+}
+h2{
+    color:springgreen;
+    text-shadow: 1px 2px 1px black;    
+}
+#nome{  
+    font-size: 25px;
+    color: seagreen;
+    font-weight: 700;    
+}
+.texto{   
+    height: 80px;
+    font-size: 35px;
+    box-shadow: 2px 2px springgreen;
+}
+.container{
+    margin-top:50px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 5px black;    
+    border-radius: 10px;
+    background-color: seagreen;
+    padding: 30px;
+    width: 600px;
+    height: 600px;
+}
+button{
+    align-self: center;    
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px springgreen;
+    box-shadow: 2px 2px 5px springgreen;
+    height: 50px;
+    width: 50%;
+}
+button:hover{
+  background-color: seagreen;
+  color: springgreen; 
+ 
+}
+.nome{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    height: 50px;
+    width: 98%;
+    background-color: springgreen;    
+    justify-content: center;
+    align-items:center ;
+    border-radius: 10px;
+}
+.lista {   
+    font-size: 20px;
+    height:20%;      
+    color:seagreen;
+    text-shadow: 1px 1px 1.5px seagreen;
+    margin: 10px;       
+    border-radius: 20px;
+    background-color:snow ;   
+    padding: 10px; 
+}  
+    
+
