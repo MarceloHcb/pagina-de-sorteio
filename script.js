@@ -27,12 +27,24 @@ function remover() {
 let pessoaSorteada = document.getElementById("pessoa-sorteada")
 
 function sortear() {
-    let np = pessoas.length;
-    let ns = Math.floor(Math.random() * np);
+    var np = pessoas.length;
+    var ns = Math.floor(Math.random() * np);
     if (np == 0) {
         pessoaSorteada.innerHTML = "Ninguém foi Adicionado!"
     } else {
-        pessoaSorteada.innerHTML = "A pessoa vencedora foi " + pessoas[ns]
-
+        pessoaSorteada.innerHTML = "A pessoa vencedora foi " 
+        setTimeout(tempo, 5000)
+       timer = setInterval(tempo1, 1000)
+    }
+    let numero = 0;
+    function tempo1() {
+        pessoaSorteada.innerHTML += "."
+        numero++
+    }
+    function tempo(){
+        pessoaSorteada.innerHTML =  pessoas[ns] 
+        clearTimeout(timer)
     }
 }
+
+
