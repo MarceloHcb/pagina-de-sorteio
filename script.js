@@ -1,8 +1,8 @@
-let botao = document.getElementById("botao")
-let nome = document.getElementById("nome")
-let val = document.getElementById("valor")
-let nomes = document.getElementById("nomes")
-let lista = document.getElementById("lista")
+const botao = document.getElementById("botao")
+const nome = document.getElementById("nome")
+const val = document.getElementById("valor")
+const nomes = document.getElementById("nomes")
+const lista = document.getElementById("lista")
 
 let pessoas = []
 let ultimo = pessoas.length
@@ -27,8 +27,8 @@ function remover() {
 let pessoaSorteada = document.getElementById("pessoa-sorteada")
 
 function sortear() {
-    var np = pessoas.length;
-    var ns = Math.floor(Math.random() * np);
+    const np = pessoas.length;
+    const ns = Math.floor(Math.random() * np);
     if (np == 0) {
         pessoaSorteada.innerHTML = "Ninguém foi Adicionado!"
     } else {
@@ -46,5 +46,3 @@ function sortear() {
         clearTimeout(timer)
     }
 }
-
-

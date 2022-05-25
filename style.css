@@ -1,6 +1,8 @@
 html{
     display: flex;
-    background-color: paleturquoise;
+    background-image: url("./assets/images/sorteio_fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     justify-content: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
 }
@@ -21,7 +23,7 @@ h2{
 .texto{   
     height: 80px;
     font-size: 35px;
-    box-shadow: 2px 2px springgreen;
+    box-shadow: 2px 2px rgb(65,110,179);
 }
 .container{
     margin-top:50px ;
@@ -29,8 +31,7 @@ h2{
     flex-direction: column;
     justify-content: space-evenly;
     box-shadow: 2px 2px 5px black;    
-    border-radius: 10px;
-    background-color: seagreen;
+    border-radius: 10px;   
     padding: 30px;
     width: 600px;
     height: 600px;
